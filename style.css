@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Monotype Corsiva;
+    src: url(./fonts/Monotype.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: OLD;
+    src: url(./fonts/OLD.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family:  Inter-Regular;
+    src: url(./fonts/Inter-Regular.ttf);
+    font-weight: 400;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+        color: #1d1d1b;
+    }
+
+    @media print{
+    .no-print, .no-print *{
+        display: none !important;
+    } 
+    .print-m-0{
+        margin: 0 !important;
+    }
+    } 
+
+    /* [2:44 pm, 30/11/2023] +880 1964-277155: fonts name :  Old English Text MT , Bree Serif Regular, Monotype Corsiva, Montserrat
+[2:44 pm, 30/11/2023] +880 1964-277155: background color code = FCFCEE */
+    /* <link href="https://www.dafontfree.net/embed/b2xkLWVuZ2xpc2gtdGV4dC1tdC1yZWd1bGFyJmRhdGEvMjYvby8xMzY5NDQvT0xELnR0Zg" rel="stylesheet" type="text/css"/> */
+    /* font-family: 'old-english-text-mt-regular', sans-serif; */
+    /* Monotype Corsiva */
+
+    /* font-family: 'Bree Serif', serif;
+font-family: 'Montserrat', sans-serif; */
+.cert-container{
+   position: relative;
+   width: 842.4px;
+   height: 597.6px;
+   
+    background-color:#FCFCEE;
+    padding: 20px;
+    z-index: 11;
+    overflow: hidden;
+}
+/* .cert-container::before{
+    content: "";
+    width: 1307px;
+    height: 1307px;
+    background-image: url(images/Certificate.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    opacity: .9;
+} */
+.abs-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.cert{
+    
+    border: 2.9px solid #0782C4;
+    height: 100%;
+    width: 100%;
+   position: relative;
+   z-index: 11;
+
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 15px;
+}
+.top-wrapper .top-contentent-logo{
+   margin-left: 14px;
+   margin-top: 12px;
+}
+.top-wrapper .ibsp-img{
+    margin-top: 26px;
+}
+.top-wrapper .top-contentent-osha{
+    margin-right: 13px;
+    margin-top: 10px;
+}
+.top-wrapper .title-img{
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.content-wrapper{
+ text-align: center;
+    position: relative;
+ z-index: 1111;
+}
+.awarded-content{
+    color: #1d1d1b;
+    font-family: 'Bree Serif', serif;
+   
+
+   
+}
+
+.awarded-title h2{
+    color: #000;
+    font-family: 'Bree Serif', serif;
+    font-size: 21.452px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+ 
+}
+
+.awarded-content .awarded-to h2{
+    color: #000; 
+     font-family: 'Bree Serif', serif;
+    font-size: 21.452px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9px;
+ 
+}
+.awarded-content .awarded-name h2{
+    color: #000;  
+    font-family: 'Bree Serif', serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+.awarded-content .awarded-diligent h2{
+    color: #000;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+.awarded-content .awarded-industry h2{
+    color: #000;
+    font-family: 'Bree Serif', serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+.cerficate-content{
+    padding: 0px 16px;
+    margin-top: 10px;
+}
+.cerficate-content h3{
+    color: #000;
+    font-family:  Inter-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-align: left;
+}
+.ceo-sign{
+    margin-left: 42px;
+    margin-top: 56px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  
+}
+.trainer-sign{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;  
+    margin-top: 24px;
+    margin-left: 53px;
+}
+.ceo-sign img{
+    display: inline-block;
+    max-width: 119px;
+    max-height: 40px;
+
+}
+.cerficate-number{
+    margin-top: 13px;
+    padding-right: 10px;
+}
+.cerficate-number h5{
+    color: #000;
+     font-family: 'Bree Serif', serif;
+    font-size: 11.892px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.trainer-sign h5,
+.ceo-sign h5{
+    color: #000;
+    font-family:  Inter-Regular;
+    font-size: 13.681px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    border-top: .5px solid #010101;
+    padding-top: 4px;
+    display: inline-block;
+
+}
+.footer-area{
+    display: flex;
+    margin-top: auto;
+    height: 100%;
+    justify-content: space-between;
+}
+.approve-img {
+    margin-top: 22px;
+}
+.d-flex{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+}
