@@ -237,7 +237,7 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: space-between;
 }
 .approve-img {
-    margin-top: 22px;
+    margin-top: 20px;
 }
 .d-flex{
     display: flex;
@@ -245,4 +245,15 @@ font-family: 'Montserrat', sans-serif; */
 
 img{
     max-width: 100%;
+}
+.approve-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.approve-img .wasc{
+    margin-top: 20px;
+    margin-left: -25px;
+    position: relative;
 }
