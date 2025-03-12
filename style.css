@@ -253,7 +253,11 @@ img{
     gap: 10px;
 }
 .approve-img .wasc{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: -25px;
     position: relative;
+}
+.trainer-img {
+    visibility: hidden;
+    opacity: 0;
 }
