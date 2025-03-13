@@ -166,33 +166,34 @@ font-family: 'Montserrat', sans-serif; */
  
 }
 .cerficate-content{
-    padding: 0px 16px;
+    padding: 0px 25px;
     margin-top: 10px;
 }
-.cerficate-content h3{
+
+.cerficate-content h3 {
     color: #000;
-    font-family:  Inter-Regular;
-    font-size: 15px;
-    font-style: normal;
+    font-family: Monotype Corsiva;
+    font-size: 16px;
+    font-style: italic;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 19px;
     text-align: left;
+    max-width: 713px;
 }
 .ceo-sign{
-    margin-left: 42px;
-    margin-top: 56px;
+    margin-left: 25px;
+    margin-top: 54px;
     text-align: left;
     display: flex;
     flex-direction: column;
     gap: 2px;
-  
 }
 .trainer-sign{
     display: flex;
     flex-direction: column;
     gap: 2px;  
-    margin-top: 24px;
-    margin-left: 53px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .ceo-sign img{
     display: inline-block;
@@ -201,8 +202,8 @@ font-family: 'Montserrat', sans-serif; */
 
 }
 .cerficate-number{
-    margin-top: 13px;
-    padding-right: 10px;
+    margin-top: 23px;
+    padding-right: 25px;
 }
 .cerficate-number h5{
     color: #000;
@@ -254,10 +255,23 @@ img{
 }
 .approve-img .wasc{
     margin-top: 50px;
-    margin-left: -25px;
+    margin-left: -20px;
     position: relative;
 }
 .trainer-img {
     visibility: hidden;
     opacity: 0;
+}
+.frame {
+    text-align: left;
+    display: inline-block;
+}
+.frame p{
+    color: #DADADA;
+    margin-bottom: 2px;
+}
+.cerficate-number h5 p>span {
+
+    width: 76px;
+    display: inline-block;
 }
